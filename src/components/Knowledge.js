@@ -1,0 +1,108 @@
+import {
+  SiJavascript,
+  SiTypescript,
+  SiHtml5,
+  SiCsswizardry,
+  SiReact,
+  SiTailwindcss,
+  SiSass,
+  SiBootstrap,
+  SiStyledcomponents,
+} from "react-icons/si";
+
+export function Knowledge() {
+  return (
+    <section className="skills" id="skills">
+      <div>
+        <div>
+          <div className="skill-box">
+            <div>
+              <h2>Tecnologias</h2>
+              <p>Tecnologia estudadas nos 2 anos.</p>
+              <div className="skill-slider">
+                <div>
+                  <div>
+                    <SiJavascript />
+                  </div>
+                  <div>
+                    <SiTypescript />
+                  </div>
+                  <div>
+                    <SiHtml5 />
+                  </div>
+                  <div>
+                    <SiCsswizardry />
+                  </div>
+                </div>
+                <div>
+                  <div>
+                    <SiReact />
+                  </div>
+                  <div>
+                    <SiTailwindcss />
+                  </div>
+                  <div>
+                    <SiSass />
+                  </div>
+                  <div>
+                    <SiBootstrap />
+                  </div>
+                  <div>
+                    <SiStyledcomponents />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="cursos">
+              <h2>Cursos</h2>
+              <div>
+                <ul>
+                  <li>
+                    <h4>Rocketseat</h4>
+                    <p>
+                      2021 - Atualmente <br />
+                      ReactJs - Futuro ReactNative e NodeJs
+                    </p>
+                  </li>
+                  <li>
+                    <h4>Curso em Video</h4>
+                    <p>
+                      2021 - 2022 <br /> HTML5 - CSS3 - Javascript{" "}
+                    </p>
+                  </li>
+                  <li>
+                    <h4>ImagineSchool</h4>
+                    <p>
+                      2021 - 2021 <br />
+                      HTML5 - CSS3 - Javascript{" "}
+                    </p>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <ul>
+                  <li>
+                    <h4>UNOPAR - Universidade Norte do Paraná</h4>
+                    <p>
+                      2018 - 2020
+                      <br />
+                      Técnico em Logística
+                    </p>
+                  </li>
+                  <li>
+                    <h4>CNA - Escola de Idiomas</h4>
+                    <p>
+                      2011 - 2016
+                      <br />
+                      Inglês
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
