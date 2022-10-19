@@ -88,7 +88,7 @@ export default function Home() {
             </li>
           </ul>
         </nav>
-        <section className="w-full mb-2 pt-2 flex flex-col justify-between px-10">
+        <section className="w-full z-50 mb-2 pt-2 flex flex-col justify-between px-10">
           <Hero />
           <Knowledge />
           <Projects />
