@@ -25,7 +25,6 @@ a {
 }
 
 body::-webkit-scrollbar {
-display: none;
   width: 12px; /* width of the entire scrollbar */
 }
 
