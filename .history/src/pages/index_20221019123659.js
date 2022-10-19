@@ -25,7 +25,7 @@ export default function Home() {
           <a href="#home">
             <button
               className="
-                  text-2xl bg-gradient-to-r from-blue-500 to-gray-300 text-white p-2 
+                  text-2xl bg-gradient-to-r from-blue-500 to-gray-700 text-white p-2 
           rounded-full md:text-4xl lg:text-4xl"
             >
               GC
@@ -36,8 +36,8 @@ export default function Home() {
               <a
                 href="#knowledge"
                 className="
-                  bg-blue-500 text-white px-4 py-2 rounded-md font-bold
-                  hover:bg-gradient-to-r hover:from-blue-700 active:bg-blue-700 focus:outline-none focus:ring focus:ring-blue-300
+                  bg-gradient-to-r from-blue-500 to-gray-700 text-white px-4 py-2 rounded-md font-bold
+                  hover:bg-gradient-to-r hover:from-blue-300 hover:to-gray-500 active:bg-blue-700 focus:outline-none focus:ring focus:ring-blue-300 tooltip:'Knowledge'
                   "
               >
                 <span className="hidden md:flex lg:flex">Knowledge</span>
@@ -48,8 +48,8 @@ export default function Home() {
               <a
                 href="#projects"
                 className="
-                  bg-blue-500 text-white px-4 py-2 rounded-md font-bold
-                  hover:bg-gradient-to-r hover:from-blue-700 active:bg-blue-700 focus:outline-none focus:ring focus:ring-blue-300
+                  bg-gradient-to-r from-blue-500 to-gray-700 text-white px-4 py-2 rounded-md font-bold
+                  hover:bg-gradient-to-r hover:from-blue-300 hover:to-gray-500 active:bg-blue-700 focus:outline-none focus:ring focus:ring-blue-300
                   "
               >
                 <span className="hidden md:flex lg:flex">Projects</span>
@@ -60,8 +60,8 @@ export default function Home() {
               <a
                 href="#resume"
                 className="
-                   bg-blue-500 text-white px-4 py-2 rounded-md font-bold
-                  hover:bg-gradient-to-r hover:from-blue-700 active:bg-blue-700 focus:outline-none focus:ring focus:ring-blue-300
+                  bg-gradient-to-r from-blue-500 to-gray-700 text-white px-4 py-2 rounded-md font-bold
+                  hover:bg-gradient-to-r hover:from-blue-300 hover:to-gray-500 active:bg-blue-700 focus:outline-none focus:ring focus:ring-blue-300
                   "
               >
                 <span className="hidden md:flex lg:flex">Resume</span>
@@ -72,8 +72,8 @@ export default function Home() {
               <a
                 href="#contact"
                 className="
-                   bg-blue-500 text-white px-4 py-2 rounded-md font-bold
-                  hover:bg-gradient-to-r hover:from-blue-700 active:bg-blue-700 focus:outline-none focus:ring focus:ring-blue-300
+                  bg-gradient-to-r from-blue-500 to-gray-700 text-white px-4 py-2 rounded-md font-bold
+                  hover:bg-gradient-to-r hover:from-blue-300 hover:to-gray-500 active:bg-blue-700 focus:outline-none focus:ring focus:ring-blue-300
                   "
               >
                 <span className="hidden md:flex lg:flex">Contact</span>
@@ -96,7 +96,7 @@ export default function Home() {
         </section>
         <Contact />
         <footer className="flex items-center justify-center">
-          <p className="text-gray-800 bold dark:text-white ">
+          <p className="text-gray-300 bold dark:text-white ">
             Guilherme Cardoso - Front-End Developer
           </p>
         </footer>
